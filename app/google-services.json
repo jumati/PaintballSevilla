@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "65819440749",
+    "project_id": "paintballsevilla-8f6f5",
+    "storage_bucket": "paintballsevilla-8f6f5.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:65819440749:android:dd1baa656f3f5002767164",
+        "android_client_info": {
+          "package_name": "com.jm.paintballsevilla"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBY8SQe1ezmkJMgn7NCCfinMNOu1dCRIM8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

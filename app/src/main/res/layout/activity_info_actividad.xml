@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".InfoActividadActivity"
+    android:background="@color/background">
+
+    <Button
+        android:id="@+id/info_actividad_fav_button"
+        android:layout_width="70dp"
+        android:layout_height="80dp"
+        android:text="."
+        android:textColor="@color/background"
+        android:drawableLeft="@drawable/star_white_50px"
+        android:background="@color/transparent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/info_actividad_title"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:fontFamily="@font/aaa"
+            android:text="Info\nActividad"
+            android:textAlignment="center"
+            android:textColor="@color/white"
+            android:textSize="35sp" />
+
+        <TextView
+            android:id="@+id/info_actividad_nombre"
+            android:layout_width="275dp"
+            android:layout_height="50dp"
+            android:layout_marginTop="100dp"
+            android:ems="10"
+            android:fontFamily="@font/aaa"
+            android:text="Nombre"
+            android:gravity="center"
+            android:textColor="@color/white"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/info_actividad_zona"
+            android:layout_width="275dp"
+            android:layout_height="50dp"
+            android:layout_marginTop="10dp"
+            android:ems="10"
+            android:fontFamily="@font/aaa"
+            android:text="Ubicacion"
+            android:inputType="text"
+            android:gravity="center"
+            android:textColor="@color/white"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/info_actividad_plazas"
+            android:layout_width="275dp"
+            android:layout_height="50dp"
+            android:layout_marginTop="10dp"
+            android:ems="10"
+            android:fontFamily="@font/aaa"
+            android:text="Plazas"
+            android:gravity="center"
+            android:textColor="@color/white"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/info_actividad_descripcion"
+            android:layout_width="275dp"
+            android:layout_height="50dp"
+            android:layout_marginTop="10dp"
+            android:ems="10"
+            android:fontFamily="@font/upheavtt"
+            android:text="Descripción breve de la actividad."
+            android:gravity="center"
+            android:inputType="textMultiLine"
+            android:textColor="@color/white"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/info_actividad_fecha"
+            android:layout_width="275dp"
+            android:layout_height="50dp"
+            android:layout_marginTop="10dp"
+            android:ems="10"
+            android:fontFamily="@font/aaa"
+            android:gravity="center"
+            android:text="Fecha y Hora"
+            android:textColor="@color/white"
+            android:textSize="20sp" />
+
+        <Button
+            android:id="@+id/info_actividad_volver_button"
+            android:layout_width="110dp"
+            android:layout_height="55dp"
+            android:layout_marginTop="100dp"
+            android:layout_marginBottom="20dp"
+            android:background="@color/transparent"
+            android:fontFamily="@font/aaa"
+            android:text="@string/volver"
+            android:textColor="@color/white"
+            android:textSize="12sp" />
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

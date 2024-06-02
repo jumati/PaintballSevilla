@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/actividades_fragment"
+        android:icon="@drawable/squid_logo_1_white"
+        android:title="ACTIVIDADES"/>
+    <item
+        android:id="@+id/lista_usuarios_fragment"
+        android:icon="@drawable/dash_menu_white"
+        android:title="USUARIOS"/>
+    <item
+        android:id="@+id/favoritos_fragment"
+        android:icon="@drawable/star_white"
+        android:title="MIS ACTIVIDADES"/>
+    <item
+        android:id="@+id/editar_usuario_fragment"
+        android:icon="@drawable/filter_white"
+        android:title="EDITAR USUARIO"/>
+    <item
+        android:id="@+id/logOut"
+        android:icon="@drawable/caret_right_white"
+        android:title="LOGOUT"/>
+</menu>

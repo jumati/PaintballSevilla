@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".EditarUsuarioActivity"
+    android:background="@color/background">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TextView
+            android:id="@+id/editar_usuario_title_activity"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="50dp"
+            android:fontFamily="@font/aaa"
+            android:text="Editar\nUsuario"
+            android:textAlignment="center"
+            android:textColor="@color/white"
+            android:textSize="35sp"/>
+
+        <EditText
+            android:id="@+id/editar_usuario_name_activity"
+            android:layout_width="275dp"
+            android:layout_height="50dp"
+            android:layout_marginTop="50dp"
+            android:ems="10"
+            android:fontFamily="@font/aaa"
+            android:hint="Nombre"
+            android:textAlignment="center"
+            android:textColor="@color/white"
+            android:textColorHint="@color/white"
+            android:textSize="16sp" />
+
+        <EditText
+            android:id="@+id/editar_usuario_last_name_activity"
+            android:layout_width="275dp"
+            android:layout_height="50dp"
+            android:layout_marginTop="10dp"
+            android:ems="10"
+            android:fontFamily="@font/aaa"
+            android:hint="Apellidos"
+            android:inputType="text"
+            android:textAlignment="center"
+            android:textColor="@color/white"
+            android:textColorHint="@color/white"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/editar_usuario_email_activity"
+            android:layout_width="275dp"
+            android:layout_height="50dp"
+            android:layout_marginTop="10dp"
+            android:editable="false"
+            android:ems="10"
+            android:fontFamily="@font/upheavtt"
+            android:hint="Email"
+            android:inputType="textEmailAddress"
+            android:gravity="center"
+            android:textColor="@color/white"
+            android:textColorHint="@color/white"
+            android:textSize="22sp" />
+
+        <EditText
+            android:id="@+id/editar_usuario_phone_activity"
+            android:layout_width="275dp"
+            android:layout_height="50dp"
+            android:layout_marginTop="10dp"
+            android:ems="10"
+            android:fontFamily="@font/upheavtt"
+            android:hint="TelÉfono"
+            android:inputType="phone"
+            android:textAlignment="center"
+            android:textColor="@color/white"
+            android:textColorHint="@color/white"
+            android:textSize="22sp" />
+
+        <CheckBox
+            android:id="@+id/editar_usuario_master_activity"
+            android:layout_width="125dp"
+            android:layout_height="50dp"
+            android:layout_marginTop="10dp"
+            android:fontFamily="@font/upheavtt"
+            android:text="Master"
+            android:textColor="@color/white"
+            android:textSize="22sp"
+            android:ems="10"/>
+
+        <Button
+            android:id="@+id/editar_usuario_guardar_cambios_button_activity"
+            android:layout_width="275dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="70dp"
+            android:backgroundTint="@color/background_button"
+            android:fontFamily="@font/aaa"
+            android:text="Guardar"
+            android:textColor="@color/white"
+            android:textSize="16sp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:orientation="horizontal"
+            android:layout_marginTop="20dp">
+
+            <Button
+                android:id="@+id/editar_usuario_volver_activity"
+                android:layout_width="125dp"
+                android:layout_height="wrap_content"
+                android:background="@color/transparent"
+                android:fontFamily="@font/aaa"
+                android:text="Volver"
+                android:textColor="@color/white"
+                android:textSize="12sp" />
+
+            <Button
+                android:id="@+id/editar_usuario_eliminar_usuario_activity"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="15dp"
+                android:layout_marginEnd="15dp"
+                android:background="@color/transparent"
+                android:fontFamily="@font/aaa"
+                android:text="Eliminar\nUsuario"
+                android:textColor="@color/eliminar"
+                android:textSize="12sp" />
+
+            <Button
+                android:id="@+id/editar_usuario_limpiar_activity"
+                android:layout_width="125dp"
+                android:layout_height="wrap_content"
+                android:background="@color/transparent"
+                android:fontFamily="@font/aaa"
+                android:text="Limpiar\ncampos"
+                android:textColor="@color/white"
+                android:textSize="12sp" />
+        </LinearLayout>
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

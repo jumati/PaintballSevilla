@@ -1,0 +1,34 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.PaintballSevilla" parent="Theme.AppCompat.DayNight.DarkActionBar">
+        <!-- Customize your light theme here. -->
+        <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
+    </style>
+
+    <style name="Theme.PaintballSevilla" parent="Base.Theme.PaintballSevilla" />
+
+    <style name="intro" parent="Theme.PaintballSevilla">
+        <item name="android:windowBackground">@drawable/intro</item>
+    </style>
+
+    <style name="bottonNav2">
+        <item name="android:background">@color/background_nav2</item>
+        <item name="itemTextColor">@color/black</item>
+        <item name="itemIconTint">@color/black</item>
+    </style>
+
+    <style name="bottonNav3">
+        <item name="android:background">@color/background_nav3</item>
+        <item name="itemTextColor">@color/black</item>
+        <item name="itemIconTint">@color/black</item>
+    </style>
+
+    <style name="fecha" parent="Theme.AppCompat.Light.Dialog">
+        <item name="android:colorAccent">@color/pink</item>
+    </style>
+
+    <style name="hora" parent="Theme.AppCompat.Light.Dialog">
+        <item name="android:colorAccent">@color/background_button</item>
+    </style>
+
+</resources>

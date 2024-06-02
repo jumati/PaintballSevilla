@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="white2">#FFFFFFFF</color>
+    <color name="pink">#FF317A</color>
+    <color name="blue_grey">#394871</color>
+    <color name="grey">#353B4A</color>
+    <color name="background">#2B2B2B</color>
+    <color name="background_button">#0048FE</color>
+    <color name="background_button2">#72B516</color>
+    <color name="background_nav2">#FE5601</color>
+    <color name="background_nav3">#27B039</color>
+    <color name="transparent">#00FFFFFF</color>
+    <color name="eliminar">#FFFA5656</color>
+</resources>

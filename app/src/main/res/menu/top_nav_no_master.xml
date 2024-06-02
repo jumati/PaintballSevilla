@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:textColor="@color/white">
+
+    <item
+        android:id="@+id/menu_refresh_no_master"
+        android:title="Refresh"
+        android:fontFamily="@font/aaa"
+        android:textColor="@color/white"
+        android:icon="@drawable/refresh_white"
+        app:showAsAction="ifRoom"/>
+</menu>
